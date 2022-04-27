@@ -1,0 +1,1 @@
+let sumMix = x => x.reduce((previous, current) => previous + Number(current), 0);

@@ -1,0 +1,1 @@
+const squareSum = numbers => numbers.reduce((previous, current) => previous + current**2, 0);

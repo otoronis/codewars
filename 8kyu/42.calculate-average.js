@@ -1,0 +1,1 @@
+const find_average = array => array.length ? array.reduce((sum, x) => sum + x, 0) / array.length : 0;

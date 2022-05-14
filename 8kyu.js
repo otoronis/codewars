@@ -24,3 +24,6 @@ function betterThanAverage(classPoints, yourPoints) {
 
 // 53. Beginner - reduce but grow
 const grow = x => x.reduce((product, x) => product * x, 1)
+
+// 54. Sentence smash
+const smash = words => words.join(' ')

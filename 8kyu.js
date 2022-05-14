@@ -21,3 +21,6 @@ function betterThanAverage(classPoints, yourPoints) {
   const average = Math.round(sum / classPoints.length);
   return yourPoints > average
 }
+
+// 53. Beginner - reduce but grow
+const grow = x => x.reduce((product, x) => product * x, 1)

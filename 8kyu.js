@@ -27,3 +27,6 @@ const grow = x => x.reduce((product, x) => product * x, 1)
 
 // 54. Sentence smash
 const smash = words => words.join(' ')
+
+// 55. Array plus array
+const arrayPlusArray = (arr1, arr2) => arr1.reduce((sum, x) => sum + x, 0) + arr2.reduce((sum, x) => sum + x, 0)

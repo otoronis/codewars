@@ -36,3 +36,14 @@ const monkeyCount = n => Array(n).fill(null).map((u, i) => i + 1)
 
 // 57. Function 3 - multiplying two numbers
 const multiply = (x, y) => x * y
+
+// 58. Transportation on vaction
+function rentalCarCost(d) {
+  if (d >= 7) {
+    return d * 40 - 50
+  } else if (d >= 3) {
+    return d * 40 - 20
+  } else {
+    return d * 40
+  }
+}

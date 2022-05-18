@@ -33,3 +33,6 @@ const arrayPlusArray = (arr1, arr2) => arr1.reduce((sum, x) => sum + x, 0) + arr
 
 // 56. Count the monkeys
 const monkeyCount = n => Array(n).fill(null).map((u, i) => i + 1)
+
+// 57. Function 3 - multiplying two numbers
+const multiply = (x, y) => x * y

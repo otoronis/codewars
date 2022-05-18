@@ -30,3 +30,6 @@ const smash = words => words.join(' ')
 
 // 55. Array plus array
 const arrayPlusArray = (arr1, arr2) => arr1.reduce((sum, x) => sum + x, 0) + arr2.reduce((sum, x) => sum + x, 0)
+
+// 56. Count the monkeys
+const monkeyCount = n => Array(n).fill(null).map((u, i) => i + 1)

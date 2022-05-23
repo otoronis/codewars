@@ -47,3 +47,6 @@ function rentalCarCost(d) {
     return d * 40
   }
 }
+
+// 59. Convert a string to an array
+const stringToArray = string => string.split(' ');

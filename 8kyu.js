@@ -60,3 +60,12 @@ function points(games) {
 
 // 61. Volume of a cubiod
 const getVolumeOfCuboid = (length, width, height) => length * width * height;
+
+// 62. If you can't sleep, just count sheep
+var countSheep = function (num){
+  let result = '';
+  for (let i = 1; i <= num; i++) {
+    result += `${i} sheep...`;
+  }
+  return result
+}

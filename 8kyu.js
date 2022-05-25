@@ -69,3 +69,6 @@ var countSheep = function (num){
   }
   return result
 }
+
+// 63. Grasshopper - personalized message
+const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;

@@ -81,3 +81,6 @@ function countBy(x, n) {
   }
   return z
 }
+
+// 65. Area or perimeter
+const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w);

@@ -72,3 +72,12 @@ var countSheep = function (num){
 
 // 63. Grasshopper - personalized message
 const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
+
+// 64. Count by X
+function countBy(x, n) {
+  var z = []
+  for (var i = 1; i <= n; i++) {
+    z.push(x * i);
+  }
+  return z
+}

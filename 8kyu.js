@@ -57,3 +57,6 @@ function points(games) {
   games.forEach(x => total += (Number(x[0]) > Number(x[2]) ? 3 : (Number(x[0]) === Number(x[2]) ? 1 : 0)));
   return total
 }
+
+// 61. Volume of a cubiod
+const getVolumeOfCuboid = (length, width, height) => length * width * height;

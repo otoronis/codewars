@@ -50,3 +50,10 @@ function rentalCarCost(d) {
 
 // 59. Convert a string to an array
 const stringToArray = string => string.split(' ');
+
+// 60. Total amount of points
+function points(games) {
+  let total = 0;
+  games.forEach(x => total += (Number(x[0]) > Number(x[2]) ? 3 : (Number(x[0]) === Number(x[2]) ? 1 : 0)));
+  return total
+}

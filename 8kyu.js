@@ -100,3 +100,6 @@ const rps = (p1, p2) => {
 
 // 67. Can we divide it?
 const isDivideBy = (number, a, b) => (Math.abs(number) % Math.abs(a) === 0) && (Math.abs(number) % Math.abs(b) === 0);
+
+// 68. Third angle of a triangle
+const otherAngle = (a, b) => 180 - a - b;

@@ -84,3 +84,16 @@ function countBy(x, n) {
 
 // 65. Area or perimeter
 const areaOrPerimeter = (l , w) => l === w ? l * w : 2 * (l + w);
+
+// 66. Rock Paper Scissors
+const rps = (p1, p2) => {
+  if (p1 === p2) {
+    return "Draw!";
+  }
+  const rules = {rock: "scissors", paper: "rock", scissors: "paper"};
+  if (p2 === rules[p1]) {
+    return "Player 1 won!";
+  } else {
+    return "Player 2 won!";
+  }
+};

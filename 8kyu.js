@@ -97,3 +97,6 @@ const rps = (p1, p2) => {
     return "Player 2 won!";
   }
 };
+
+// 67. Can we divide it?
+const isDivideBy = (number, a, b) => (Math.abs(number) % Math.abs(a) === 0) && (Math.abs(number) % Math.abs(b) === 0);

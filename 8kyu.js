@@ -103,3 +103,6 @@ const isDivideBy = (number, a, b) => (Math.abs(number) % Math.abs(a) === 0) && (
 
 // 68. Third angle of a triangle
 const otherAngle = (a, b) => 180 - a - b;
+
+// 69. Quarter of the year
+const quarterOf = (month) => Math.ceil(month / 3);

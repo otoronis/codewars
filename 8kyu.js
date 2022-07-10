@@ -106,3 +106,6 @@ const otherAngle = (a, b) => 180 - a - b;
 
 // 69. Quarter of the year
 const quarterOf = (month) => Math.ceil(month / 3);
+
+// 70. Remove exclamation marks
+const removeExclamationMarks = s => s.replace(/!/g, '');

@@ -109,3 +109,16 @@ const quarterOf = (month) => Math.ceil(month / 3);
 
 // 70. Remove exclamation marks
 const removeExclamationMarks = s => s.replace(/!/g, '');
+
+// 71. Sum without highest and lowest number
+function sumArray(array) {
+  if (!array || array.length <= 2) {
+    return 0
+  }
+  let minimum = Math.min(...array);
+  let maximum = Math.max(...array);
+  array.splice(array.indexOf(minimum), 1, 0);
+  array.splice(array.indexOf(maximum), 1, 0);
+  let sum = array.reduce((acc, curr) => acc + curr, 0);
+  return sum
+}
